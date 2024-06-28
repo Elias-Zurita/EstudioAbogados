@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    font-family: "Work Sans";
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration:none !important;
+}
+body{
+    margin-top: 50px;
+}
+.banner{
+    border: blue solid 3px;
+    height: 85vh;
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+    position: relative;
+}
+.textosBanner{
+    position: absolute;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-weight: bold;
+    background-color:rgba(42, 49, 48, 0.8);
+    padding:0 10px;
+    font-size:35px;
+    top:37%;
+    left: 4%;   
+}
+.textosBanner div{
+  font-family: "Cinzel", serif;
+  font-weight: 400;
+}
+#quienesSomos{
+    border: 3px solid salmon;
+}
+#quienesSomos p{
+    font-family: "Poppins", sans-serif;
+}
+.circulosSomos{
+    display: flex;
+    justify-content:space-around;
+    border: red solid 3px;
+    padding:40px
+}
+.cajaCirculo{
+    border: 3px solid;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+}
+.circulo{
+    border-radius: 100%;
+    border: none;
+    background-color: rgba(42, 49, 48, 0.8);
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: #E0A75E;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.textoCirculo{
+    padding: 20px;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+}
+#misionVision{
+    border: green solid 3px;
+}   
