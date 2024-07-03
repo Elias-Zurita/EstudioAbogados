@@ -38,19 +38,24 @@ body{
 }
 #quienesSomos{
     border: 3px solid salmon;
+    max-width: 1900px;
+    margin: 0 auto;
+    padding: 50px;
 }
 #quienesSomos p{
     font-family: "Poppins", sans-serif;
+    text-align: justify;
 }
 .circulosSomos{
     display: flex;
     justify-content:space-around;
     border: red solid 3px;
-    padding:40px
+    padding:40px;
+    flex-wrap: wrap;
 }
 .cajaCirculo{
     border: 3px solid;
-    width: 30%;
+    width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,4 +81,97 @@ body{
 }
 #misionVision{
     border: green solid 3px;
-}   
+    max-width: 1900px;
+    padding: 50px;
+    margin: 0 auto;
+}
+#misionVision p, h2{
+    font-family: "Poppins";
+    text-align: justify;
+}
+#areasPadre{
+    max-width: 1900px;
+    border: red solid 2px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.area{
+    border: violet solid 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    background-color: rgb(71 85 105);
+    border-radius: 15px;
+    margin: 20px;
+}
+.area img{
+    height: 50px;
+}
+.tituloArea{
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    
+}
+.area li{
+    font-family: "Poppins";
+    font-size: 18px;
+    color: white;
+}
+
+/*------------ ACORDEON ------------*/
+.cajaCarousel{
+  margin: 0% 3% 3% 3%;
+  font-family: 'Poppins';
+  padding: 2%;
+  box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+}
+.acordeon{
+  margin-left: auto;
+  margin-right: auto;
+  
+  width: 80%;
+  background-color: white;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 20px;
+}
+.acordeonTitulo{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Righteous';
+}
+.headerAcordeon{
+  padding: 12px;
+  font-family: "Poppins";
+  font-size: 20px;
+  border: black solid 2px;
+}
+h2{
+  padding:0; 
+  margin: 0
+}
+.tituloAcordeon{
+  width: 100%;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 20px;
+}
+.accordion-header{
+  border: black solid 1px;
+  border-top: none
+}
+.headerAcordeon{
+  text-align: center;
+  border: black solid 1px;
+  margin-bottom: 1px;
+}
+.accordion{
+  --bs-accordion-active-bg: #E6E6E6;  /*  fondo del boton activado*/
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(228, 228, 228, 0.696); /* Color de la sombra del boton activado */
+}
