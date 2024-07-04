@@ -195,6 +195,8 @@ h2{
 }
 .accordion-button::after { /* flechita */
   color: violet!important;
+  background-color: white;
+  padding: 10px;
 }
 .accordion-button:not(.collapsed) { /* boton cuando esta activado */
   background-color: #31363F;
